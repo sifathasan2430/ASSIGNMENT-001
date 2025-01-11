@@ -221,6 +221,9 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left; 
 }
+.btn-more{
+    margin-top: 32px;
+}
 .second-article{
     margin-top: 24px;
     
