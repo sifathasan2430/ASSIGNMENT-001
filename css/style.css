@@ -7,6 +7,7 @@ body{
 }
 main{
     margin: 0 160px;
+    width: 1280px;
 }
 
 .banner-box{
@@ -216,4 +217,121 @@ text-align: left;
 }
 .second-article{
     margin-top: 24px;
+    
 }
+ /* donation-title */
+ .donation-section{
+    max-width: 1280px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+ }
+ .donation-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .donation-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+ margin: 24px 88px 32px 88px; 
+ }
+ .donation-colums{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                gap: 24px;
+                margin: 0px 104.5px 32px 104.5px ;
+                height: 128px;
+ }
+ 
+ .colum-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 40px 40px;
+
+background: rgb(255, 255, 255);
+ }
+ .secondary-bg{
+    background-color:#C6E4D6;
+ }
+ input[type="text"]{
+    display: block;
+    padding: 20px 40px;
+    text-align: center;
+    box-sizing: border-box;
+border-bottom: 1px solid;
+background: rgb(255, 255, 255);
+border: none;
+width: 1032px;
+margin: 0px 124px 32px 124px;
+
+ }
+ .btn{
+    text-align: center;
+ }
+
+footer{
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+
+}
+.footer-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+ .footer-info{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .inline-object{
+    display: inline-block;
+ }
+ footer input{
+    width: 600px;
+    border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+padding: 18px 40px;
+ }
+ 
