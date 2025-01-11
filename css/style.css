@@ -16,6 +16,7 @@ main{
     align-items: center;
     justify-content: space-between;
     gap: 65px;
+    margin-bottom: 80px;
 }
 .banner-content{
     max-width: 622px;
@@ -55,4 +56,104 @@ border: none;
     
    width: 474.03px; 
    height: 400px;
+}
+.vision-section{
+max-width: 1280px;
+}
+.visition-section-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.visition-section-info{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.card-items{
+    display: flex;
+    justify-content:space-around;
+    gap: 24px;
+}
+.card-item1{
+          padding: 32px;
+          box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+}
+.card-item1 button{
+margin-top: 24px;
+background: rgb(84, 144, 245);
+}
+ .card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 25px 0px 12px 0px;
+
+}
+
+.card-info{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn{
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: none;
+}
+
+.card-item2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+    background: rgb(198, 228, 214);
+
+
+
+}
+.card-item2 button{
+    background-color: #09A15C;
+    margin-top: 24px;
+}
+.card-item3{
+padding: 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+}
+.card-item3 button{
+    background-color: #FFC239;
+    margin-top: 31px;
 }
